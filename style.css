@@ -145,3 +145,8 @@
       transform: translateY(0px);
     }
   }
+footer {
+    background-color: rgb(39, 41, 68);
+    color: rgb(224, 224, 224);
+    text-align: center;
+  }
