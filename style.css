@@ -1,9 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+     background-color: rgb(39, 41, 68);
   }
-  
+   @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
   section {
     height: 100vh;
     background-color: rgb(39, 41, 68);
